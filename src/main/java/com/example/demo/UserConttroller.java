@@ -8,6 +8,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class UserConttroller {
+	public UserConttroller() {
+		// TODO Auto-generated constructor stub
+		System.out.println("UserController");
+	}
 
 	@RequestMapping("/show")
 	public String show() {
